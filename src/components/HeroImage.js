@@ -4,7 +4,7 @@ import * as styles from "./HeroImage.module.css"
 
 
 
-export default function HeroImage ({ theme, logosrc, blurb }){
+export default function HeroImage ({ theme, logosrc, blurb1, blurb2 }){
   const HeroImageClass = clsx(styles.HeroImage, theme);
   const Layout = clsx(styles.Layout);
 
@@ -16,9 +16,8 @@ export default function HeroImage ({ theme, logosrc, blurb }){
         <div className={Layout}>
           <img src={logosrc} alt="" title="Glasswalker Logo"></img>
           <hr></hr>
-          <p>My name is Nathan Richardson, and I am a travel, 
-            landscape and editiorial photographer.</p>
-          <p>Whitegate | Cork | Ireland</p>
+          <p>{blurb1}</p>
+          <p>{blurb2}</p>
         </div>
       </div>
 

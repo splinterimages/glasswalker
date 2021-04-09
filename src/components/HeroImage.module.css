@@ -2,6 +2,17 @@
     width: 100%;
     height: 100vh;
     position: relative;
+    background-size: cover;
+}
+
+.HeroImage:before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 80%;
 }
 
 .Layout{
@@ -64,26 +75,49 @@
   }
 
  /* Dark Theme */
+    /* Dark Theme */
+        /* Dark Theme */
 
 .dark{
     background-color: #181818;
-    background-image: url("../../public/static/images/media_background.png");
-    background-size: cover;
     background-position: right;
+    background-image: url("../../public/static/images/media_background.png");
+}
+
+.dark hr{
+    color: #ffc900; /* old IE */
+    background-color: #ffc900; /* Modern Browsers */
 }
 
 .dark:before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
     background-color: #181818;
-    opacity: 80%;
 }
 
-.logo{
-    position: absolute;
-    top: 0px;
+.dark .Layout p{
+    color: #ffffff;
 }
+
+
+
+/* Light Theme */
+    /* Light Theme */
+        /* Light Theme */
+
+        .light{
+            background-color: #ffffff;
+            background-position: left;
+            background-image: url("../../public/static/images/ux_background.png");
+        }
+        
+        .light hr{
+            color: #FF006C; /* old IE */
+            background-color: #FF006C; /* Modern Browsers */
+        }
+        
+        .light:before{
+            background-color: #ffffff;
+        }
+
+        .light .Layout p{
+            color: #181818;
+        }

@@ -1,7 +1,7 @@
 import React from "react"
 import Supertile from "../components/supertile"
 import * as styles from "../components/supertile.module.css"
-
+import "@fontsource/source-sans-pro"
 
 
 export default function Home() {
