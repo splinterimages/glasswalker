@@ -18,7 +18,7 @@ export default function HeroImage ({ theme, logosrc, blurb }){
           <hr></hr>
           <p>My name is Nathan Richardson, and I am a travel, 
             landscape and editiorial photographer.</p>
-            <p>Whitegate | Cork | Ireland</p>
+          <p>Whitegate | Cork | Ireland</p>
         </div>
       </div>
 
