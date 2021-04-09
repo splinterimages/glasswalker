@@ -14,7 +14,6 @@ export default function Supertile ({ to, theme, src }){
       </div>
     </Link>
 
-    //Need to have dynamic class, url, image
     
   )
 }

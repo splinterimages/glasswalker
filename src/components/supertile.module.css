@@ -9,7 +9,7 @@
     position: relative;
 }
 
-img{
+.superTile img{
     margin: 0;
     position: absolute;               
     top: 50%;
@@ -55,6 +55,7 @@ img{
     color: #ffffff;
     background-image: url("../../public/static/images/media_background.png");
     background-size: cover;
+    background-position: right;
 }
 
 .dark:before{

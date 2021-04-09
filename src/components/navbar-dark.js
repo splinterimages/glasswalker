@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import styles from "./navbar.module.css"
+import styles from "./navbar-dark.module.css"
 
 
 const ListLink = props => (
@@ -14,10 +14,9 @@ export default function Navbar (){
         <header>
             <Link to="/"></Link>
             <ul>
-            <ListLink to="/">Home</ListLink>
+            <ListLink to="/media">Home</ListLink>
             <ListLink to="/about/">Photography</ListLink>
             <ListLink to="/contact/">Video</ListLink>
-            <ListLink to="/contact/">Case Studies</ListLink>
             <ListLink to="/about/">About</ListLink>
             </ul>
         </header>      

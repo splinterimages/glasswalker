@@ -1,11 +1,12 @@
 header{
     max-width: 100%; 
-    background-color: #181818;
+    background-color: rgba(24,24,24,0.8);
     margin: 0px;
     height: 56px;
     position: fixed;
     width: 100%;
     top:0px;
+    z-index: 1000;
 }
 
 h1, h3, p{
@@ -22,7 +23,7 @@ a{
 }
 
 a:hover{
-    color: yellow;
+    color: #ffc900;
 }
 
 ul{
