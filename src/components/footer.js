@@ -1,12 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
-import styles from "./footer.module.css"
+import clsx from "clsx"
+import * as containerStyles from "./footer.module.css"
 
 
-export default function Footer (){
+export default function SiteFooter ({ theme, logosrc, copyright }){
+  const SiteFooterClass = clsx(containerStyles.SiteFooter, theme);
+
   return (
-    <footer>
-        <p>Copyright 2021 © Nathan Richardson, Glasswalker Media. All Rights Reserved.</p>     
-    </footer>
+    <div className={SiteFooterClass}>
+        <hr></hr>
+        <p>{copyright}</p>
+        <img src={logosrc} alt="" title="Glasswalker Logo"></img>     
+    </div>
   )
 }

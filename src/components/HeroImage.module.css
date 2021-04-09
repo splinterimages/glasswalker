@@ -33,8 +33,6 @@
     margin: 104px auto 0px;
     border: none;
     height: 2px;
-    color: #ffc900; /* old IE */
-    background-color: #ffc900; /* Modern Browsers */
 }
 
 .Layout p{
@@ -78,7 +76,7 @@
     /* Dark Theme */
         /* Dark Theme */
 
-.dark{
+.HeroImage.dark{
     background-color: #181818;
     background-position: right;
     background-image: url("../../public/static/images/media_background.png");
@@ -89,7 +87,7 @@
     background-color: #ffc900; /* Modern Browsers */
 }
 
-.dark:before{
+.HeroImage.dark:before{
     background-color: #181818;
 }
 
@@ -99,22 +97,24 @@
 
 
 
+
+
 /* Light Theme */
     /* Light Theme */
         /* Light Theme */
 
-        .light{
+        .HeroImage.light{
             background-color: #ffffff;
             background-position: left;
             background-image: url("../../public/static/images/ux_background.png");
         }
         
-        .light hr{
+        .HeroImage.light hr{
             color: #FF006C; /* old IE */
             background-color: #FF006C; /* Modern Browsers */
         }
         
-        .light:before{
+        .HeroImage.light:before{
             background-color: #ffffff;
         }
 
