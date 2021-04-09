@@ -1,0 +1,14 @@
+p{
+    font-size: 14px;
+    color: #181818;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom:40px;
+}
